@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    container_name: project-fiber
+    ports:
+      - 5002:5002
+    volumes:
+      - ./:/app

@@ -1,0 +1,11 @@
+title="Configuration File for Menekel"
+debug=true
+contextTimeout="2"
+[server]
+  address= ":5001"
+[database]
+  host="localhost"
+  port="1026"
+  user="postgres"
+  pass="postgres"
+  name="go_fiber"
